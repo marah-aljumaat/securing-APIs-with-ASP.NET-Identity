@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="OAuthClient/OAuthClient.csproj" />
+  <Project Path="OAuthServer.csproj" />
+</Solution>

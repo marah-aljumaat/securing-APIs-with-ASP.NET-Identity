@@ -1,0 +1,10 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h1>OAuth Client</h1>
+<a href="https://localhost:5001/oauth/authorize?response_type=code&client_id=client_app&redirect_uri=https://localhost:5002/callback&state=xyz">
+    Login with OAuth
+</a>
